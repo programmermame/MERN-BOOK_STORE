@@ -1,0 +1,16 @@
+{
+  "name": "book-store",
+  "version": "1.0.0",
+  "type":"module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Mohammed Mussa",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
