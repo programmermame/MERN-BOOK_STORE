@@ -37,7 +37,7 @@ export const createBook = async (req, res) => {
 
             const createBook = await Book.create(newBook);
 
-            return res.status(200).send(book);
+            return res.status(200).send(createBook);
         }
         return res.status(400).json({ message: 'Send all required fields: ISBN,Title, Author, Genre, PublicationDate' });
 
